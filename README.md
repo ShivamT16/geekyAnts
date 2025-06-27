@@ -4,6 +4,11 @@ A full-stack engineering resource management tool to help managers assign engine
 
 ---
 
+## 📽️ Demo Video
+Check out a walkthrough of the project:  
+🔗 [Watch Demo Video on Loom](https://www.loom.com/share/10dfc04d274b43d6a25d3ed17f238a07?sid=cb508c65-46fb-412c-bf44-907ea79a9d39)
+
+
 ## 🚀 Features
 
 ### 👤 Authentication & Roles
@@ -75,3 +80,31 @@ john@example.com or sara@example.com → see only their assignments(Engineer)
 - Tested API endpoints manually via Postman.
 - Verified AI-generated code through console logs and browser output.
 - Always double-checked with official documentation.
+
+
+## ⚙️ How to Run locally
+### Clone & Install
+```
+git clone https://github.com/ShivamT16/geekyAnts.git
+cd geekyAnts
+```
+
+#### For Frontend  
+```
+$ npm install
+$ npm run dev       // run frontend       
+```
+
+#### For Backend
+```
+$ cd backend
+$ npm install   
+
+- Create a .env in your backend directory:
+
+MONGODB_URI=mongodb+srv://<your_mongodb_uri>
+PORT=5000
+
+$ node seed.js      // seed sample data
+$ node server.js   // run backend server
+```
